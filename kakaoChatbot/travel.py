@@ -177,6 +177,11 @@ def travel():
                         "buttons": [
                             {
                                 "action": "webLink",
+                                "label": "커뮤니티 검색",
+                                "webLinkUrl": f"http://www.howthere.site/main/search?searchWord={poi_nm}"
+                            },
+                            {
+                                "action": "webLink",
                                 "label": "여행지 위치 보기",
                                 "webLinkUrl": f"https://map.naver.com/p/search/{poi_nm}"
                             }
